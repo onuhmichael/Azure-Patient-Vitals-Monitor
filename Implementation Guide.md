@@ -1,4 +1,4 @@
-Below is a detailed LinkedIn article you can post, outlining how to leverage Azure AI Anomaly Detector for detecting irregular medical conditions in healthcare. The article weaves together a real-world sample dataset, integration with Azure Synapse Analytics, and insights from Microsoft’s documentation.
+<img width="810" alt="image" src="https://github.com/user-attachments/assets/73617b67-ce14-4061-8b3f-666f4ec07720" />
 
 ---
 
@@ -60,7 +60,7 @@ df.write.mode("overwrite").saveAsTable("patient_vital_signs")
 - **Blood Pressure (mmHg):** Normal is around 120/80; higher or lower values may indicate hypertension or hypotension.
 - **Oxygen Saturation (SpO₂):** Normal is between 95–100%; drops below 92% signal potential hypoxia.
 
-*(Adapted from our initial sample dataset guidance.)*
+
 
 ## Integrating with Azure Synapse Analytics
 
@@ -90,10 +90,3 @@ I invite healthcare professionals, data engineers, and AI enthusiasts to explore
 
 ---
 
-*References:*
-- Microsoft Learn, [Tutorial: Anomaly detection with Azure AI services](https://learn.microsoft.com/en-us/azure/synapse-analytics/machine-learning/tutorial-cognitive-services-anomaly) citeturn0fetch0
-- Sample dataset adapted for healthcare monitoring.
-
----
-
-This comprehensive approach not only illustrates the technical setup but also emphasizes the transformative impact of AI in healthcare. Happy innovating!
